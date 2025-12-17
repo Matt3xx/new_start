@@ -6,7 +6,8 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>NEW START - Home</title>
-        <link rel="stylesheet" href="NEW_START.css" />
+        <link rel="stylesheet" href="NEW_START_DESKTOP.css">
+        <link rel="stylesheet" href="NEW_START_MOBILE(index).css" media="(max-width: 768px)">
     </head>
     <body>
 
@@ -18,60 +19,55 @@
         <a class="menu-link active" href="NEW_START_EVENTI.html">Eventi</a>
         </nav>
 
-        <header>
+        <header class="list.title">
             <h1>NEW START</h1>
         </header>
 
-        <section class="card">
-            <div class="container">
-                <div class="box">
-                    <span class="title">BAND:</span>
-                    <div>
-                        <table>
-                            <tr>
-                                <th>STRUMENTO</th>
-                                <th>NOME</th>
-                            </tr>
-                            <tr>
-                                <td contenteditable="true">VOCE</td>           
-                                <img src="microfono.png" 
-                                alt="immagine" 
-                                style="width: 90px; height: auto;">
-                                <td contenteditable="true">Giulia Morra, Alice Morra</td>
-                            </tr>
-                            <tr>
-                                <td contenteditable="true">CHITARRA</td>
-                                <img src="chitarra.png" 
-                                alt="immagine" 
-                                style="width: 90px; height: auto;">
-                                <td contenteditable="true">Yari Morra, Davide Quarantiello</td>
-                            </tr>
-                            <tr>
-                                <td contenteditable="true">BATTERIA</td>
-                                <img src="batteria.png" 
-                                alt="immagine" 
-                                style="width: 90px; height: auto;">
-                                <td contenteditable="true">Daniel Quarantiello, Luca M</td>
-                            </tr>
-                            <tr>
-                                <td contenteditable="true">TASTIERA</td>
-                                <img src="tastiera.png" 
-                                alt="immagine" 
-                                style="width: 90px; height: auto;">
-                                <td contenteditable="true">Matteo Minniti</td>
-                            </tr>
-                            <tr>
-                                <td contenteditable="true">BASSO</td>
-                                <img src="basso.png" 
-                                alt="immagine" 
-                                style="width: 90px; height: auto;">
-                                <td contenteditable="true">Simone M</td>
-                            </tr>
-                        </table>
-                    </div>
+            <section class="card">
+            <div class="box">
+                <span class="title">BAND:</span>
+            
+                <!-- IMMAGINI STRUMENTI -->
+                <div class="band-images">
+                    <img src="microfono.png" alt="Voce">
+                    <img src="chitarra.png" alt="Chitarra">
+                    <img src="batteria.png" alt="Batteria">
+                    <img src="tastiera.png" alt="Tastiera">
+                    <img src="basso.png" alt="Basso">
                 </div>
+
+                <!-- TABELLA -->
+                <div class="table-container">
+                    <table>
+                        <tr>
+                            <th>STRUMENTO</th>
+                            <th>NOME</th>
+                        </tr>
+                        <tr>
+                            <td contenteditable="true">VOCE</td>           
+                            <td contenteditable="true">Giulia Morra, Alice Morra</td>
+                        </tr>
+                        <tr>
+                            <td contenteditable="true">CHITARRA</td>
+                            <td contenteditable="true">Yari Morra, Davide Quarantiello</td>
+                        </tr>
+                        <tr>
+                            <td contenteditable="true">BATTERIA</td>
+                            <td contenteditable="true">Daniel Quarantiello, Luca M</td>
+                        </tr>
+                        <tr>
+                            <td contenteditable="true">TASTIERA</td>
+                            <td contenteditable="true">Matteo Minniti</td>
+                        </tr>
+                        <tr>
+                            <td contenteditable="true">BASSO</td>
+                            <td contenteditable="true">Simone M</td>
+                        </tr>
+                    </table>
             </div>
-        </section>
+        </div>
+    </section>
+
     <script src="script.js"></script>
 </body>
 </html>

@@ -1,0 +1,41 @@
+/* super piccolo */
+@media (max-width: 420px) {
+  .contact-text { display: none; }
+}
+
+@media (max-width: 768px) {
+
+  /* HEADER */
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .home-title {
+    font-size: 42px;
+  }
+
+  .nav {
+    font-size: 14px;
+  }
+
+  /* CONTENITORE IMMAGINE + CARD */
+  body > div {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  /* IMMAGINE LISTA */
+  body > div img {
+    width: 140px;
+  }
+
+  /* CARD */
+  .card {
+    width: 100%;
+    max-width: 100%;
+  }
+
+}

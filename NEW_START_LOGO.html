@@ -8,19 +8,20 @@
         html, body {
             margin: 0;
             padding: 0;
-            height: 60%;
-            width: 60%;
+            height: 100%;
+            width: 100%;
+            background-color: #000; /* sfondo nero */
         }
 
         body {
-            background: url('LOGO_NEW_START.jpg') no-repeat center center;
-            background-size: cover; /* copre tutto lo schermo mantenendo proporzioni */
-            height: 60vh; /* altezza viewport */
-            width: 60vw;  /* larghezza viewport */
+            display: flex;
+            justify-content: center; /* orizzontalmente centrato */
+            align-items: center;     /* verticalmente centrato */
+            background: #000 url('LOGO_NEW_START.jpg') no-repeat center center;
+            background-size: contain; /* logo centrato e proporzionato */
         }
     </style>
 </head>
 <body>
-<script src="script.js"></script>
 </body>
 </html>

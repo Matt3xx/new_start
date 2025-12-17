@@ -1,0 +1,211 @@
+@media (max-width: 768px) {
+
+  body {
+    padding: 15px;
+    padding-top: 70px;
+  }
+
+  .home-wrapper {
+    margin-top: 70px;
+  }
+
+  .home-title {
+    font-size: 48px;
+  }
+
+  .home-subtitle,
+  .slogan {
+    font-size: 13px;
+  }
+
+  .home-buttons {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .home-btn {
+    font-size: 14px;
+    padding: 14px 20px;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .events-container {
+    width: 95%;
+  }
+
+  .calendar {
+    grid-template-columns: repeat(7, 1fr);
+  }
+
+  /* SICUREZZA ASSOLUTA */
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  .logo-top img {
+      width: 35px;  /* dimensione più piccola */
+      height: auto;
+  }
+
+
+
+      @media (max-width: 768px) {
+
+      /* Contenitore immagini */
+      .band-images {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        margin-bottom: 15px;
+      }
+
+      .band-images img {
+        width: 50px;  /* più piccole su mobile */
+        height: auto;
+      }
+
+      /* Tabella */
+      .table-container {
+        width: 100%;
+        overflow-x: auto; /* scroll solo interno se serve */
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 14px;
+      }
+
+      th, td {
+        padding: 6px 8px;
+        word-wrap: break-word;
+      }
+
+      /* Card e box */
+      .card, .box {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 10px;
+      }
+
+      /* Titolo */
+      .title {
+        font-size: 18px;
+        display: block;
+        margin-bottom: 10px;
+      }
+  }
+
+    @media (max-width: 768px) {
+
+    /* Contenitore principale (flex row → colonna) */
+    body.page-lista > div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    /* Immagine lista */
+    body.page-lista img {
+        width: 100%;
+        max-width: 200px; /* mantiene proporzioni */
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+
+    /* Card elenco */
+    body.page-lista .card {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 10px;
+    }
+
+    /* Titolo card */
+    body.page-lista .card h2 {
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    /* Paragrafo elenco */
+    body.page-lista .card p {
+        font-size: 14px;
+        line-height: 1.5;
+        text-align: left;
+        word-break: break-word; /* evita overflow */
+    }
+  }
+
+      @media (max-width: 768px) {
+
+  /* Header: titolo grande, centrato */
+  body header {
+      display: flex;
+      flex-direction: column;  /* titolo sopra, sottotitolo sotto */
+      align-items: center;     /* centrato */
+      text-align: center;
+      gap: 5px;
+      padding: 10px 0;
+  }
+
+  /* Titolo principale */
+  body header h1 {
+      font-size: 36px;  /* più grande */
+      color: #42679e;
+      margin: 0;
+  }
+
+  /* Sottotitolo subito sotto il titolo */
+  body header .subtitle {
+      font-size: 16px;
+      color: #bbb;
+      margin: 0;
+  }
+
+  /* Container eventi: colonna */
+  .events-container {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      padding: 0 10px;
+      box-sizing: border-box;
+  }
+
+  /* Event card: mantieni dimensioni normali */
+  .event-card {
+      width: 100%;  /* full width mobile */
+      padding: 15px;
+      box-sizing: border-box;
+      text-align: left;  /* testo dentro card a sinistra, non centrato */
+  }
+
+  /* Titoli eventi più leggibili */
+  .event-card h2 {
+      font-size: 18px;
+      margin-bottom: 5px;
+  }
+
+  /* Data e descrizione più piccole */
+  .event-card .date,
+  .event-card .desc {
+      font-size: 14px;
+      line-height: 1.4;
+  }
+}
+
+
+
+
+}
+
+
+
